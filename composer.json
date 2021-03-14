@@ -9,6 +9,7 @@
             "email": "Patferio@amedacier.com"
         }
     ],
+    "prefer-stable": true,
     "type": "library",
     "require": {
         "php": ">=7.2"
