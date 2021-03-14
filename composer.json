@@ -1,0 +1,27 @@
+{
+    "name": "patferio/database",
+    "description": "Library to simplify communication with mysqli",
+    "keywords": ["database", "mysqli", "sql","db"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Patrick Frenette",
+            "email": "Patferio@amedacier.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "patferio\\database\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}

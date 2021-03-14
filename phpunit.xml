@@ -1,0 +1,5 @@
+<testsuites>
+  <testsuite name="database">
+    <directory>tests\databaseTest.php</directory>
+  </testsuite>
+</testsuites>
